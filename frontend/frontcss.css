@@ -1,0 +1,45 @@
+ section{
+    width: 80vw;
+    margin: auto;
+    background-color: red;
+    height: 80vh;
+    overflow-y:scroll;
+    overflow-x:hidden;
+      
+} 
+.message{
+    border: 2px solid rgb(1, 246, 38);
+    background-color: grey;
+    max-width: 25vw;
+    padding: 1vw;
+    border-radius: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form > div{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.inputmessage{
+    width: 80%;
+    height: 5vh;
+}
+button{
+    width: 20%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
